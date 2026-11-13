@@ -104,3 +104,7 @@ There are 22 tests: the parser, each rule (including the cases where it should s
 - Read `.gz` rotated logs directly.
 - A `--follow` mode that watches the file as it grows.
 - Handle the `message repeated N times` lines.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
