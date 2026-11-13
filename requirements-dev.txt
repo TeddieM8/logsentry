@@ -1,0 +1,2 @@
+# The tool itself only uses the standard library. This is just for the tests.
+pytest>=7

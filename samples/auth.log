@@ -1,0 +1,43 @@
+Nov 12 08:01:12 web01 sshd[1201]: Accepted publickey for alice from 10.0.0.15 port 50112 ssh2: ED25519 SHA256:EXAMPLEexampleEXAMPLEexampleEXAMPLEexample0
+Nov 12 08:01:12 web01 sshd[1201]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Nov 12 08:15:01 web01 CRON[1250]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 12 08:15:01 web01 CRON[1250]: pam_unix(cron:session): session closed for user root
+Nov 12 08:32:05 web01 sshd[1302]: Failed password for bob from 10.0.0.22 port 50344 ssh2
+Nov 12 08:32:11 web01 sshd[1302]: Accepted password for bob from 10.0.0.22 port 50344 ssh2
+Nov 12 08:32:11 web01 sshd[1302]: pam_unix(sshd:session): session opened for user bob(uid=1002) by (uid=0)
+Nov 12 08:40:27 web01 sudo:      bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Nov 12 09:14:02 web01 sshd[2101]: Failed password for root from 203.0.113.45 port 41822 ssh2
+Nov 12 09:14:05 web01 sshd[2101]: Failed password for root from 203.0.113.45 port 41822 ssh2
+Nov 12 09:14:08 web01 sshd[2101]: Failed password for root from 203.0.113.45 port 41822 ssh2
+Nov 12 09:14:11 web01 sshd[2104]: Failed password for root from 203.0.113.45 port 41836 ssh2
+Nov 12 09:14:14 web01 sshd[2104]: Failed password for root from 203.0.113.45 port 41836 ssh2
+Nov 12 09:14:17 web01 sshd[2104]: Failed password for root from 203.0.113.45 port 41836 ssh2
+Nov 12 09:14:20 web01 sshd[2107]: Failed password for root from 203.0.113.45 port 41850 ssh2
+Nov 12 09:14:23 web01 sshd[2107]: Failed password for root from 203.0.113.45 port 41850 ssh2
+Nov 12 09:14:26 web01 sshd[2107]: Failed password for root from 203.0.113.45 port 41850 ssh2
+Nov 12 09:14:29 web01 sshd[2110]: Failed password for root from 203.0.113.45 port 41864 ssh2
+Nov 12 09:14:32 web01 sshd[2110]: Failed password for root from 203.0.113.45 port 41864 ssh2
+Nov 12 09:14:35 web01 sshd[2110]: Failed password for root from 203.0.113.45 port 41864 ssh2
+Nov 12 09:14:35 web01 sshd[2110]: Disconnecting authenticating user root 203.0.113.45 port 41864: Too many authentication failures [preauth]
+Nov 12 10:00:05 web01 sshd[2390]: Invalid user admin from 198.51.100.23 port 40022
+Nov 12 10:00:07 web01 sshd[2390]: Failed password for invalid user admin from 198.51.100.23 port 40022 ssh2
+Nov 12 10:04:17 web01 sshd[2412]: Invalid user test from 198.51.100.23 port 40188
+Nov 12 10:04:19 web01 sshd[2412]: Failed password for invalid user test from 198.51.100.23 port 40188 ssh2
+Nov 12 10:08:29 web01 sshd[2431]: Invalid user oracle from 198.51.100.23 port 40304
+Nov 12 10:08:31 web01 sshd[2431]: Failed password for invalid user oracle from 198.51.100.23 port 40304 ssh2
+Nov 12 10:12:42 web01 sshd[2455]: Invalid user postgres from 198.51.100.23 port 40467
+Nov 12 10:12:44 web01 sshd[2455]: Failed password for invalid user postgres from 198.51.100.23 port 40467 ssh2
+Nov 12 10:16:56 web01 sshd[2478]: Invalid user ubuntu from 198.51.100.23 port 40591
+Nov 12 10:16:58 web01 sshd[2478]: Failed password for invalid user ubuntu from 198.51.100.23 port 40591 ssh2
+Nov 12 10:21:01 web01 sshd[2502]: Invalid user guest from 198.51.100.23 port 40713
+Nov 12 10:21:03 web01 sshd[2502]: Failed password for invalid user guest from 198.51.100.23 port 40713 ssh2
+Nov 12 11:05:30 web01 sshd[2760]: Accepted publickey for alice from 10.0.0.15 port 51020 ssh2: ED25519 SHA256:EXAMPLEexampleEXAMPLEexampleEXAMPLEexample0
+Nov 12 11:05:30 web01 sshd[2760]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Nov 12 11:42:10 web01 sshd[2944]: Failed password for deploy from 192.0.2.77 port 38110 ssh2
+Nov 12 11:42:21 web01 sshd[2944]: Failed password for deploy from 192.0.2.77 port 38110 ssh2
+Nov 12 11:42:33 web01 sshd[2944]: Failed password for deploy from 192.0.2.77 port 38110 ssh2
+Nov 12 11:42:44 web01 sshd[2951]: Failed password for deploy from 192.0.2.77 port 38142 ssh2
+Nov 12 11:42:56 web01 sshd[2951]: Failed password for deploy from 192.0.2.77 port 38142 ssh2
+Nov 12 11:43:08 web01 sshd[2951]: Failed password for deploy from 192.0.2.77 port 38142 ssh2
+Nov 12 11:43:20 web01 sshd[2958]: Accepted password for deploy from 192.0.2.77 port 38170 ssh2
+Nov 12 11:43:20 web01 sshd[2958]: pam_unix(sshd:session): session opened for user deploy(uid=1003) by (uid=0)
